@@ -1,0 +1,7 @@
+A fork of pyramid_beaker's session factory methods
+
+Allows for session IDs to be overridden on the server-side.
+Used for applications that use shared session storage with other applications.
+
+Should not be used instead of API calls for complicated data, only state
+sharing between applications.
